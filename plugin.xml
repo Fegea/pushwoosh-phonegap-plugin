@@ -7,14 +7,15 @@
 		This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).
 	</description>
 
-	<!-- <engines>
-			<engine name="cordova" version=">=3.1.0" />
-	</engines> -->
+	<engines>
+	<engine name=”cordova” version=”>=7.1.0"/>
+	<engine name=”cordova-android” version=”>=6.3.0"/>
+	</engines>
 
 	<license>MIT</license>
 
-	<repo>https://github.com/Pushwoosh/pushwoosh-phonegap-plugin</repo>
-	<issue>https://github.com/Pushwoosh/pushwoosh-phonegap-plugin/issues</issue>
+	<repo>https://github.com/Fegea/pushwoosh-phonegap-plugin</repo>
+	<issue>https://github.com/Fegea/pushwoosh-phonegap-plugin/issues</issue>
 
 	<preference name="LOG_LEVEL" default="DEBUG" />
 	<preference name="IOS_FOREGROUND_ALERT_TYPE" default="NONE" />
