@@ -7,11 +7,6 @@
 		This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).
 	</description>
 
-	<engines>
-	<engine name=”cordova” version=”>=7.1.0"/>
-	<engine name=”cordova-android” version=”>=6.3.0"/>
-	</engines>
-
 	<license>MIT</license>
 
 	<repo>https://github.com/Fegea/pushwoosh-phonegap-plugin</repo>
@@ -29,7 +24,7 @@
 	<platform name="android">
 		<dependency id="cordova-support-google-services" version="1.2.1" />
 
-		<preference name="PLAY_SERVICES_VERSION" default="12+"/>
+		<preference name="PLAY_SERVICES_VERSION" default="15+"/>
 		<framework src=”com.google.android.gms:play-services-ads:$PLAY_SERVICES_VERSION” />
 	
 		<config-file>
